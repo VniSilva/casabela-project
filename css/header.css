@@ -1,0 +1,37 @@
+header nav{
+    height: 80px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+#espaco-logo li a{
+    font-size: 1.05rem;
+    color: white
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    margin-right: 40px;
+    font-size: 1.05rem;
+    color: whitesmoke;
+}
+
+header nav ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 10px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+header nav ul li a:hover{
+    transition: 0.2s ease-out;
+    color: #f41f2d;
+}

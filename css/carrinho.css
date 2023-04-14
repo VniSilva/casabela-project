@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section #espaco-titulo-items{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+section #espaco-titulo-items h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: #d32c37;
+    margin-bottom: 40px;
+}
+
+section #container-item{
+    width: 1100px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#espaco-excluir{
+    margin-right: 50px;
+}
+
+#espaco-excluir button{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    background-color: #d32c37;
+    color: white;   
+}
+
+#espaco-excluir button:hover{
+    background-color: #e44a54;
+}
+
+#campo-imagem{
+    height: 240px;
+}
+
+#campo-imagem img{
+    height: 240px;
+}
+
+#container-item table img{
+    height: 210px;
+}
+
+table{
+    width: 100%;
+}
+
+table tr{
+    height: 40px;
+}
+
+table td{
+    width: 250px;
+    text-align: center;
+}
+
+#espaco-valores{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+#espaco-valores h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#espaco-valores div{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#espaco-valores table{
+    height: 80px;
+}
+
+

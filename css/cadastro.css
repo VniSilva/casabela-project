@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    width: 100%;
+    margin-top: 90px;
+}
+
+section div{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 470px;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    color: #b02f38;
+    font-family: 'Cardo', serif;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-size: 4.5rem;
+    color: #b02f38;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 1rem;
+    color: #3a3a3a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#continuar{
+    color: white;
+    background-color: #b02f38;
+    padding: 10px 165px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#continuar:hover{
+    padding: 8px 163px;
+    border: 2px solid #550006;
+}
+
+#msg-login{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #454545;
+    margin-right: 10px;
+}
+
+a{
+    color: #dd4f4f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+}
+
+input{
+    padding-inline-start: 10px;
+    color: #858585;
+    width: 365px;
+    height: 40px;
+    margin-bottom: 13px;
+    background-color: transparent;
+    border: 1px solid #858585;
+    border-radius: 3px;
+}
+
+input:focus{
+    border: 1px solid #dd4f4f;
+}
+
+#nascimento{
+    color: #858585;
+}
+
+#nascimento:hover{
+    cursor: text;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+#espaco-ou{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+#espaco-ou span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#espaco-entrar-com{
+    display: flex;
+    flex-wrap: wrap;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#espaco-entrar-com div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    background-color: #dcadad;
+    height: 42px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#espaco-entrar-com div span{
+    color: white;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#espaco-entrar-com div img{
+    height: 40px;
+}
+
+#link-login{
+    font-weight: 700;
+}
+
+#link-login:hover{
+    text-decoration: underline;
+    color: #ee6161;
+}
+
+.espaco-alerta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -12px;
+    margin-left: 10px;
+    height: 28px;
+    width: 28px;
+}
+
+#alerta-nome{
+    display: none;
+}
+
+#alerta-senha{
+    display: none;
+}
+
+#alerta-confirma-senha{
+    display: none;
+}
+
+#alerta-email{
+    display: none;
+}
+
+#alerta-nascimento{
+    display: none;
+}
+
+#alerta-endereco{
+    display: none;
+}
+
+#alerta-numero{
+    display: none;
+}
+
+#alerta-complemento{
+    display: none;
+}
+
+#alerta-bairro{
+    display: none;
+}
+
+#alerta-cidade{
+    display: none;
+}
+
+#alerta-estado{
+    display: none;
+}
+
+#alerta-cpf{
+    display: none;
+}
+
+#alerta-cep{
+    display: none;
+}
+
+footer{
+    margin-top: 200px;
+}

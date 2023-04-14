@@ -1,0 +1,47 @@
+
+
+#espaco-entrar-com{
+    display: flex;
+    flex-wrap: wrap;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#espaco-entrar-com div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 300px;
+    background-color: #dcadad;
+    height: 42px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+#espaco-entrar-com div img{
+    height: 40px;
+}
+
+section div{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 410px;
+    text-align: center;
+}
+
+input{
+    padding-inline-start: 10px;
+    color: #858585;
+    width: 335px;
+    height: 40px;
+    margin-bottom: 13px;
+    background-color: transparent;
+    border: 1px solid #858585;
+    border-radius: 3px;
+}
+
